@@ -1,6 +1,0 @@
-hardcore2:
-#  build: .
-  image: nvlih/selfz:latest
-  volumes:
-    - "./script:/src/script"
-  command: newman run /src/script/hardcore2.postman_collection.json --environment /src/script/hardcore2.postman_environment.json --reporters cli,html --reporter-html-export /src/1.html
